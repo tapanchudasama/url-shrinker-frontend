@@ -10,8 +10,8 @@ import {
   Heading,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Form } from './components/form';
-import { UrlTable } from './components/table';
+import { Form } from './components/Form';
+import { UrlTable } from './components/Table';
 
 function App() {
   return (
