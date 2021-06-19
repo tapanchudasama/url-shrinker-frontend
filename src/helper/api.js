@@ -2,7 +2,7 @@ import axios from 'axios';
 export class Api {
   constructor() {
     this.apiUrl =
-      process.NODE_ENV === 'production'
+      process.env.NODE_ENV === 'production'
         ? process.env.REACT_APP_BACKEND_URL
         : 'http://localhost:5000';
   }
