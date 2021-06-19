@@ -66,7 +66,9 @@ export const UrlTable = () => {
                   </Link>
                 </Td>
                 <Td>{url.clicks}</Td>
-                <Td>{new Date(Date.parse(url.createdDate)).toString()}</Td>
+                <Td>
+                  {new Date(Date.parse(url.createdDate)).toLocaleDateString()}
+                </Td>
               </Tr>
             );
           })}
